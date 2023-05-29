@@ -1,0 +1,14 @@
+{
+  "name": "exercise_01",
+  "version": "1.0.0",
+  "description": "Apendendo a usar o node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo O. F",
+  "license": "ISC",
+  "dependencies": {
+    "supervillains": "^3.1.0"
+  }
+}
