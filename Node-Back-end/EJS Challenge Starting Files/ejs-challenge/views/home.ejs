@@ -1,0 +1,33 @@
+<%- include('partials/header.ejs') %>
+
+<h1>home</h1>
+
+<p> <%= inicialtema %> </p>
+
+
+
+
+
+
+<% posts.forEach(function(post){  %>
+    
+   <h2><%= post.title %></h2> 
+
+ <p> <%=  post.body.substring(0, 100) +"..." %> <a href="post/<%= post.title %>">Ready more</a></p> 
+
+<% })  %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include('partials/footer.ejs') %>
+
